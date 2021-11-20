@@ -132,7 +132,7 @@ int main(int argc, char** argv)
 	/* Create a socket that uses
 	 * IPV4 addressing scheme (AF_INET),
 	 * Supports reliable data transfer (SOCK_STREAM),
-	 * and choose the default protocol that provides
+	 * And choose the default protocol that provides
 	 * reliable service (i.e. 0); usually TCP
 	 */
 	if((listenfd = socket(AF_INET, SOCK_STREAM, 0)) < 0)
@@ -165,7 +165,7 @@ int main(int argc, char** argv)
 	}
 	
 	/* Listen for connections on socket listenfd.
-	 * allow no more than 100 pending clients.
+	 * Allow no more than 100 pending clients.
 	 */
 	if(listen(listenfd, 100) < 0)
 	{
