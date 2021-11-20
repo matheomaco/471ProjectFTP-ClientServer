@@ -4,6 +4,7 @@
 #CPSC 471 Project 
 Authors:
 Matheo Maco matheomaco@csu.fullerton.edu
+Abass Zada, A.  Abszda@csu.fullerton.edu
 
 Programming language: C++
 Run on Window/Linux
