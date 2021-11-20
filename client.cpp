@@ -279,7 +279,7 @@ int main(int argc, char** argv)
       }
 
       else
-        cout << "Invalid option. Please try again with a valid option.\n";
+        cout << "Invalid Option. Please try again with a valid option.\n";
 
     cout << "ftp>";
     cin >> input;
